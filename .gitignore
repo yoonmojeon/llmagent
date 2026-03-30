@@ -1,0 +1,40 @@
+# 가상환경
+agent/
+venv/
+env/
+.venv/
+
+# 환경 변수 (API 키, 비밀번호 — 절대 커밋 금지)
+.env
+
+# Instagram 세션 파일 (로그인 토큰)
+.insta_session_*.json
+
+# RAG 벡터 DB (대용량 바이너리)
+rag/chroma_db/
+
+# 에이전트가 생성하는 이미지/파일
+*.jpg
+*.jpeg
+*.png
+*.gif
+carousel/
+carousel_test/
+*.xlsx
+*.db
+charts/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
